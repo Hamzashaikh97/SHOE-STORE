@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+  }
+  
+  .productContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .productContainer > .link {
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 4px grey;
+    margin: 10px;
+  }
+  
+  .productContainer > .link:hover {
+    background-color: rgb(241, 227, 227);
+  }
+
+  .cart{
+
+    height: '100%';
+   width: 50%;
+    
+  }
