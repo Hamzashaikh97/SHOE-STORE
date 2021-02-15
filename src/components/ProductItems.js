@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
 import Shoes from './../Shoes.json';
-import { Toolbar, Button, Icon } from '@material-ui/core';
+import { Button} from '@material-ui/core';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import { fade, makeStyles } from '@material-ui/core/styles';
+import {  makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
  
@@ -29,7 +29,7 @@ function ProductItems() {
       <h1>WELCOME PRODUCT ITEMS</h1>
       <div className="link" >
         <h4>{shoe.name}</h4>
-        <img src={shoe.img} height={350} />
+        <img src={shoe.img} height={350} alt =""/>
        
       </div>
       <ShoppingCartIcon className={classes.cart}/>

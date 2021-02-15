@@ -11,15 +11,13 @@ import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
-import MailIcon from '@material-ui/icons/Mail';
+// import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  
   Link
 } from "react-router-dom";
 
@@ -210,7 +208,7 @@ export default function NavBar() {
             />
           </div>
 
-          <div className={classes.menuTabs} className={classes.sectionDesktop} variant="h6" >
+          <div className={classes.menuTabs}  variant="h6" >
             <Button color="inherit" component={Link} to="/"> Home</Button>
             <Button color="inherit" component={Link} to="/product">Product</Button>
             <Button color="inherit" component={Link} to="/about">About</Button>
